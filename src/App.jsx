@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { NonReactStatics } from 'hoist-non-react-statics';
 
 import { Header } from './components/Header';
 import { Main } from './components/Main';
